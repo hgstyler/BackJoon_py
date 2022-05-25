@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4fb72852-08bb-4f68-9dd3-3819a3bfa5b1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>4673.py</StartupFile>
+    <StartupFile>2941.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,10 @@
     <Compile Include="10171.py" />
     <Compile Include="10172.py" />
     <Compile Include="10430.py" />
+    <Compile Include="2941.py" />
+    <Compile Include="1316.py" />
+    <Compile Include="11720.py" />
+    <Compile Include="11654.py" />
     <Compile Include="10718.py" />
     <Compile Include="10818.py" />
     <Compile Include="10869.py" />
@@ -41,6 +45,7 @@
     <Compile Include="1110.py" />
     <Compile Include="1330.py" />
     <Compile Include="14681.py" />
+    <Compile Include="1065.py" />
     <Compile Include="4673.py" />
     <Compile Include="15596.py" />
     <Compile Include="8958.py" />
