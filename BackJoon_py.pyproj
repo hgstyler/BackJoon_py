@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4fb72852-08bb-4f68-9dd3-3819a3bfa5b1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>10809.py</StartupFile>
+    <StartupFile>1157.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,8 @@
     <Compile Include="10171.py" />
     <Compile Include="10172.py" />
     <Compile Include="10430.py" />
+    <Compile Include="1157.py" />
+    <Compile Include="2908.py" />
     <Compile Include="2941.py" />
     <Compile Include="1316.py" />
     <Compile Include="11720.py" />
@@ -71,6 +73,7 @@
     <Compile Include="2577.py" />
     <Compile Include="3052.py" />
     <Compile Include="10809.py" />
+    <Compile Include="2675.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
