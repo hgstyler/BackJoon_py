@@ -83,30 +83,30 @@ words = input()
 words_cnt = 0
 
 words_cnt += dzeq(words, len(words))
-words = words.replace('dz=','')
+words = words.replace('dz=','0')
 
 words_cnt += ceq(words, len(words))
-words = words.replace('c=','')
+words = words.replace('c=','0')
 
 words_cnt += chphen(words, len(words))
-words = words.replace('c-','')
+words = words.replace('c-','0')
 
 words_cnt += dhphen(words, len(words))
-words = words.replace('d-','')
+words = words.replace('d-','0')
 
 words_cnt += seq(words, len(words))
-words = words.replace('s=','')
+words = words.replace('s=','0')
 
 words_cnt += zeq(words, len(words))
-words = words.replace('z=','')
+words = words.replace('z=','0')
 
 words_cnt += lj(words, len(words))
-words = words.replace('lj','')
-# cannot detect 'nljj', lj -> nj, wrong check
+words = words.replace('lj','0')
 
 words_cnt += nj(words,len(words))
-words = words.replace('nj','')
+words = words.replace('nj','0')
 
+words = words.replace('0','')
 words_cnt += len(words)
 
 print(words_cnt)
