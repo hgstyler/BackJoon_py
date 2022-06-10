@@ -9,23 +9,23 @@
 import sys
 import math
 
-def is_not_power(n):
-    sub_cnt = 0
+min_value, max_value = map(int, sys.stdin.readline().split())
+none_sqrt_numbers = [False] * 1000001
+last_sqrted_number = int(math.ceil(math.sqrt(float(max_value))))
+cnt = 0
 
-    for i in range(2, int(math.sqrt(n)) + 1):
-        if n % pow(i,2) == 0:
-            sub_cnt += 1
-            break
-    
-    if (sub_cnt == 0):
-        return True
-    else:
-        return False
+for i in range(2, last_sqrted_number + 1, 1):
+    powered_number = int(math.pow(i, 2))
+    sth_integer = int(math.ceil(float(min_value) / float(powered_number))) * powered_number
 
-m1, m2 = map(int, sys.stdin.readline().split())
-main_cnt = 0
+    if sth_integer > max_value:
+        continue
 
-for i in range(m1, m2 + 1):
-    main_cnt += is_not_power(i)
+    for j in range(sth_integer, max_value + 1, powered_number):
+        none_sqrt_numbers[j - min_value] = True
 
-print(main_cnt)
+for i in range(0, max_value - min_value + 1, 1):
+    if none_sqrt_numbers[i] is False:
+        cnt += 1
+
+print(cnt)
