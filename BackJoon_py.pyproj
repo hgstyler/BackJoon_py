@@ -24,6 +24,7 @@
     <Compile Include="1000.py" />
     <Compile Include="1001.py" />
     <Compile Include="1008.py" />
+    <Compile Include="7568.py" />
     <Compile Include="2309.py" />
     <Compile Include="2490.py" />
     <Compile Include="1759.py" />
