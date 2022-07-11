@@ -1,4 +1,5 @@
 # * ** * ** *** ** * ** *
+# * ** * ** *** ** * ** *
 # BJ Online Judge Project
 # by hgstyler based on Python
 # * ** * ** *** ** * ** *
