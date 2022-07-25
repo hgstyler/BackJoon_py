@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4fb72852-08bb-4f68-9dd3-3819a3bfa5b1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>11050.py</StartupFile>
+    <StartupFile>11051.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,7 @@
     <Compile Include="1037.py" />
     <Compile Include="2477.py" />
     <Compile Include="1934.py" />
+    <Compile Include="11051.py" />
     <Compile Include="2609.py" />
     <Compile Include="11050.py" />
     <Compile Include="3053.py" />
